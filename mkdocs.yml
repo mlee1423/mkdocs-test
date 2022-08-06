@@ -6,11 +6,13 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.expand
-    - toc.follow
+    - navigation.indexes
     - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
   plugins:
     - search
+  markdown_extensions:
+    -attr_list
+    -md_in_html

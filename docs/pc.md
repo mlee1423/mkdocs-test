@@ -2,8 +2,10 @@
 ## Introduction
 When planning to build a personal computer, having a clear idea of the type of tasks it will be performing on a daily basis is paramount. A PC being used for gaming or video editing will have very different hardware requirements than a PC being used for occasional word processing and internet browsing. Certainly one PC can be used for all of these tasks and more, but having a PC that can't perform can be frustrating and even discouraging.
 
+
+### Budget Plan
 Having a clear budget in mind is of upmost importance when planning a PC build. Deciding between performance and affordability is quite common for the average PC builder, so having that information before drafting a parts list is always recommended.
-### Plan your Budget
+
 Below is a table of cost ranges, the type of tasks computers built with that budget can execute, and the primary component that influences performance on those tasks.
 
 | Desktop      | Gaming    | Workstation|
@@ -14,7 +16,7 @@ Below is a table of cost ranges, the type of tasks computers built with that bud
 
 Once the budget has been decided, the parts list can be created.
 
-### Know your Components
+### Components
 Inside the case of every computer is the following:
 
 * CPU
@@ -27,6 +29,8 @@ Inside the case of every computer is the following:
 
 #### CPU - Central Processing Unit
 The CPU's job is to execute instructions for software running on the computer. It is recommended the builder know the number of cores and thread count of each CPU being considered for purchase and installation. All CPUs have cores, but recent CPUs split each core into two virtual cores called threads, adding up to 30% extra performance. The more CPU cores, the more applications can be run on the machine at the same time without issue.
+
+#### Socket Types
 
 #### CPU Cooler
 CPUs produce a lot of heat. High temperatures can cause the system to shut down in order to protect important components, and may even cause permanent damage. Fans and heatsinks are therefore necessary in order to keep the CPU running cool. With the exception of some high-end CPUs, most boxed CPUs are bundled with a corresponding CPU cooler which can meet basic demands for heat dissipation. For better system performance, it is suggested to buy a better CPU cooler.
@@ -41,7 +45,7 @@ The cooler can be classified in terms of heat dissipation medium into two types:
 * Choose a cooler that fits the PC Case. Powerful coolers often have large heat sinks, so it is important to choose a cooler that can fit into the case without obstructing other components.
 
 #### Motherboard
-The motherboard, also called the mainboard, links all the components of your computer, connecting your processor, memory modules, graphics and expansion cards, hard drives, and connections for the network, keyboard, mouse, and more.
+The motherboard, also called the mainboard, links all the components of the computer, connecting the processor, memory modules, graphics and expansion cards, hard drives, and connections to the network, keyboard, mouse, and more.
 
 ##### Dimensions
 Common motherboard sizes include:
@@ -105,3 +109,146 @@ Selecting a case can be done mostly to personal taste, but there are a few facto
 For air cooling, check the case's maximum CPU cooling height in millimeters, having at least a few mm more than the height of the actual cooler. For liquid cooling, the radiator needs a spot to mount to the case, so check for 240 or 360mm rad mounting locations at the front or the top. The top is the recommended location for keeping the inside of the case cool as the rad will exhaust directly outside the case. Never mount the rad at the bottom of the case, the pump should never be at the very top of a liquid loop as the small amount of air in the loop will want to pool there, reducing the efficiency of the CPU coldplate and pump.
 
 Finally, case construction. Tempered glass panels show off the internals but add considerable weight, and care must be taken when transporting and after installation, being careful not to torque fasteners too tightly on the glass as over time this can cause it to shatter.
+
+### Operating Systems
+An operating system is considered to be the backbone of any system. Without an operating system, the user and system cannot interact. The three most universally used operating systems are Windows, MacOS, and Linux. Windows is developed by Microsoft and is comparatively the most accessible operating system on the market. MacOS is developed by Apple for their Macintosh systems and is geared towards users that want performance fused with simplicity. Lastly, Linux is an free, open-source family of operating systems initially developed by Linus Torvalds and later added onto by the GNU Project and the Linux community. It is mainly used by enthusiasts and companies that run servers and applications with the need of high security and no downtime. Below is a table comparing the systems.
+
+| Windows | MacOS | Linux |
+|:-------:|:-----:|:-----:|
+| easy access | easy user experience | easy on the wallet |
+
+#### Dual Booting
+
+
+#### Virtual Machines
+Virtualization is the process of creating a software-based, or "virtual" version of a computer, with dedicated amounts of CPU, memory, and storage that are "borrowed" from a physical host computer—such as your personal computer— and/or a remote server—such as a server in a cloud provider's datacenter. A virtual machine is a computer file, typically called an image, that behaves like an actual computer. It can run in a window as a separate computing environment, often to run a different operating system—or even to function as the user's entire computer experience—as is common on many people's work computers. The virtual machine is partitioned from the rest of the system, meaning that the software inside a VM can't interfere with the host computer's primary operating system.
+
+To learn more check out this guide on how to install Linux and MacOS VMs on Windows 10.
+
+### Peripherals
+
+#### Expansion Cards / Networking
+##### Sound Cards
+##### Wired Network Adapters
+#### Headphones
+#### Keyboards
+#### Mice
+#### Speakers
+#### Webcams
+#### Accessories
+##### Case Accessories
+##### Case Fans
+##### Fan Controllers
+
+
+# Create Parts List
+Now that all components and their purpose in the construction of a computer have been explained, it is now time to make a list of all the hardware planned to go into the build. To make this task less daunting, PCPartPicker will be used to assemble the part list. This site provides computer part selection, compatibility, and pricing guidance on all PC hardware that is available to order online and in-store.
+
+## PCPartPicker Quick Start Guide
+Go to [pcparkpicker.com](https://pcpartpicker.com) on your web browser and select the PC Builder tool on the navigation bar.
+
+![step1](/assets/images/pcppguide/step 1.png)
+
+The following page should appear:
+
+![step1.2](/assets/images/pcppguide/step 1.2.png)
+
+Proceed with selecting components in the order provided.
+
+> **Tip**: PC Part Picker generates a hyperlink of the part list for easy sharing and storage.
+
+![step1.1](/assets/images/pcppguide/step 1.1.png)
+
+## CPU Selection
+There are plenty of CPUs to choose from, so keep performance needs and budget in mind when selecting.
+
+Select **Choose a CPU**
+
+![step2](/assets/images/pcppguide/step 2.png)
+
+### Sort Tool
+There is a sort tool available based on core attributes that most CPU buyers base decisions on.
+
+![step2.1](/assets/images/pcppguide/step 2.1.png)
+
+### Filter Tab
+There is a filters tab on the left under Merchants/Pricing that filters the Compatible Products list based the CPU specifications selected.
+
+![step2.1.2](/assets/images/pcppguide/step 2.1.2.png)
+
+> **Note**: If a combination of specifications are selected that are not compatible, no results will return.
+
+![step2.4](/assets/images/pcppguide/step 2.4.png)
+
+![step2.5](/assets/images/pcppguide/step 2.5.png)
+
+### Search Bar
+The search bar to the right of the sort tool can be utilized to find the CPU desired swiftly. The Intel i5-6600K has been searched for and is ready for selection.
+
+![step2.2.1](/assets/images/pcppguide/step 2.2.1.png)
+
+### Add to List
+
+Once the desired CPU is listed click **Add** to add that component to the PC Part List.
+
+![step2.2](/assets/images/pcppguide/step 2.2.png)
+
+ The page will redirect back to the original list page with the selected CPU now appearing in the list.
+
+![step2.3](/assets/images/pcppguide/step 2.3.png)
+
+Repeat the CPU Selection steps for adding the rest of the components to the part list.
+
+![step3](/assets/images/pcppguide/step 3.png)
+
+### Motherboard Usage
+Underneath the part list, PCPartPicker provides a motherboard usage chart to help identify which slots are being filled by which components from the list. This can be useful for basic visualization of the interaction between components on the motherboard.
+
+![step4](/assets/images/pcppguide/step 4.png)
+
+### Compatibility Notes
+Directly under the final price calculation of the list there is a short compatibility notes section disclosing information found in the manuals of each selected component that explain a result of installing it onto the selected motherboard that is potentially hindering.
+
+![step6](/assets/images/pcppguide/step 6.png)
+
+![step5](/assets/images/pcppguide/step 5.png)
+
+## Check Out
+By default, PCPartPicker chooses the current lowest price of the part selected when adding components to the list. However, there are a few different options before check out that can be utilized.
+
+### Changing Merchants
+
+![step7](/assets/images/pcppguide/step 7.png)
+
+Looking at the list, all but two of the items can be purchased on Amazon for the lowest price. In an attempt to save on shipping costs from purchasing all items on three different sites, change the merchant for the two outliers to Amazon.
+
+By clicking the small gear to the left to the part price,
+
+![step8](/assets/images/pcppguide/step 8.png)
+
+a popup appears that gives the option to change merchants regardless of price.
+Select **Amazon** from the **Use Current Price From Specific Merchant** option.
+
+![step9](/assets/images/pcppguide/step 9.png)
+
+Click **Save Part Price Setting** to save the changes made.
+
+![step10](/assets/images/pcppguide/step 10.png)
+
+Checking the list, Best Buy has been overridden by Amazon as the primary merchant.
+
+![step11](/assets/images/pcppguide/step 11.png)
+
+Repeating this step for the GPU from newegg.com, all parts are now selected to be purchased using Amazon.
+
+![step11.1](/assets/images/pcppguide/step 11.1.png)
+
+Click **Buy From Amazon** to order all parts on the list at once.
+
+![step12](/assets/images/pcppguide/step 12.png)
+
+The page will open a New Tab and redirect to Amazon.com with all parts ready to be added to cart.
+
+![step13](/assets/images/pcppguide/step 13.png)
+
+Complete the purchase through Amazon's site. Most parts will be delivered within 2 weeks.
