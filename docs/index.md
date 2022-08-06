@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# Welcome to MLDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Introduction
 
-## Commands
+This site is the current portfolio of my technical writing documentation. Each tab represents a different document. Please feel free to jump around.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Thank you!
 
-## Project layout
+-Meghann
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## About Me
+Experienced technical writer with a passion for learning new things. Currently looking to slightly pivot from previous work into exclusively writing documentation. Strong engineering professional with a Bachelor's Degree focused in Electrical and Computer Engineering from the University of Texas at San Antonio.
+
+In my free time I enjoy traveling with friends and family, lounging with my cat, and going bowling.
