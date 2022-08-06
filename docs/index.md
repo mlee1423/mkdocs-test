@@ -2,6 +2,9 @@
 
 ## Introduction
 
+!!! note "this is a note test"
+    testing the note call out
+
 This site is the current portfolio of my technical writing documentation. Each tab represents a different document. Please feel free to jump around.
 
 Thank you!

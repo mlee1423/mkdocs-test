@@ -2,7 +2,6 @@
 ## Introduction
 When planning to build a personal computer, having a clear idea of the type of tasks it will be performing on a daily basis is paramount. A PC being used for gaming or video editing will have very different hardware requirements than a PC being used for occasional word processing and internet browsing. Certainly one PC can be used for all of these tasks and more, but having a PC that can't perform can be frustrating and even discouraging.
 
-
 ### Budget Plan
 Having a clear budget in mind is of upmost importance when planning a PC build. Deciding between performance and affordability is quite common for the average PC builder, so having that information before drafting a parts list is always recommended.
 
@@ -142,9 +141,11 @@ To learn more check out this guide on how to install Linux and MacOS VMs on Wind
 
 
 # Create Parts List
+
 Now that all components and their purpose in the construction of a computer have been explained, it is now time to make a list of all the hardware planned to go into the build. To make this task less daunting, PCPartPicker will be used to assemble the part list. This site provides computer part selection, compatibility, and pricing guidance on all PC hardware that is available to order online and in-store.
 
 ## PCPartPicker Quick Start Guide
+
 Go to [pcparkpicker.com](https://pcpartpicker.com) on your web browser and select the PC Builder tool on the navigation bar.
 
 ![step1](/assets/images/pcppguide/step 1.png)
@@ -160,6 +161,7 @@ Proceed with selecting components in the order provided.
 ![step1.1](/assets/images/pcppguide/step 1.1.png)
 
 ## CPU Selection
+
 There are plenty of CPUs to choose from, so keep performance needs and budget in mind when selecting.
 
 Select **Choose a CPU**
@@ -167,11 +169,13 @@ Select **Choose a CPU**
 ![step2](/assets/images/pcppguide/step 2.png)
 
 ### Sort Tool
+
 There is a sort tool available based on core attributes that most CPU buyers base decisions on.
 
 ![step2.1](/assets/images/pcppguide/step 2.1.png)
 
 ### Filter Tab
+
 There is a filters tab on the left under Merchants/Pricing that filters the Compatible Products list based the CPU specifications selected.
 
 ![step2.1.2](/assets/images/pcppguide/step 2.1.2.png)
@@ -183,6 +187,7 @@ There is a filters tab on the left under Merchants/Pricing that filters the Comp
 ![step2.5](/assets/images/pcppguide/step 2.5.png)
 
 ### Search Bar
+
 The search bar to the right of the sort tool can be utilized to find the CPU desired swiftly. The Intel i5-6600K has been searched for and is ready for selection.
 
 ![step2.2.1](/assets/images/pcppguide/step 2.2.1.png)
@@ -202,11 +207,13 @@ Repeat the CPU Selection steps for adding the rest of the components to the part
 ![step3](/assets/images/pcppguide/step 3.png)
 
 ### Motherboard Usage
+
 Underneath the part list, PCPartPicker provides a motherboard usage chart to help identify which slots are being filled by which components from the list. This can be useful for basic visualization of the interaction between components on the motherboard.
 
 ![step4](/assets/images/pcppguide/step 4.png)
 
 ### Compatibility Notes
+
 Directly under the final price calculation of the list there is a short compatibility notes section disclosing information found in the manuals of each selected component that explain a result of installing it onto the selected motherboard that is potentially hindering.
 
 ![step6](/assets/images/pcppguide/step 6.png)
@@ -214,6 +221,7 @@ Directly under the final price calculation of the list there is a short compatib
 ![step5](/assets/images/pcppguide/step 5.png)
 
 ## Check Out
+
 By default, PCPartPicker chooses the current lowest price of the part selected when adding components to the list. However, there are a few different options before check out that can be utilized.
 
 ### Changing Merchants
