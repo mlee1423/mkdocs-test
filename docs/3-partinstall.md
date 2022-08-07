@@ -37,12 +37,12 @@ Once preparation is complete, move on to Step 1.
 
 | Step 1 | Step 2 | Step 3 | Step 4 |
 |:-:|:-:|:-:|:-:|
-|![intelstep1](/3-partinstall/assets/images/install/cpu 1.png) | ![intelstep2](/3-partinstall/assets/images/install/cpu 2.png) | ![intelstep3](/3-partinstall/assets/images/install/cpu 3.png)  |![intelstep5](/3-partinstall/assets/images/install/cpu 5.png) |
+|![intelstep1](/mkdocs-test/3-partinstall/assets/images/install/cpu 1.png) | ![intelstep2](/mkdocs-test/3-partinstall/assets/images/install/cpu 2.png) | ![intelstep3](/mkdocs-test/3-partinstall/assets/images/install/cpu 3.png)  |![intelstep5](/mkdocs-test/3-partinstall/assets/images/install/cpu 5.png) |
 
 ### AMD Photo Guide
 | Step 1 | Step 2 | Step 3 | Step 4 |
 |:-:|:-:|:-:|:-:|
-|![amdstep1](/3-partinstall/assets/images/install/cpu 1.1.png) | ![amdstep2](/3-partinstall/assets/images/install/cpu 2.1.png) | ![amdstep4](/3-partinstall/assets/images/install/cpu 4.1.png)  |![amdstep5](/3-partinstall/assets/images/install/cpu 5.1.png) |
+|![amdstep1](/mkdocs-test/3-partinstall/assets/images/install/cpu 1.1.png) | ![amdstep2](/mkdocs-test/3-partinstall/assets/images/install/cpu 2.1.png) | ![amdstep4](/mkdocs-test/3-partinstall/assets/images/install/cpu 4.1.png)  |![amdstep5](/mkdocs-test/3-partinstall/assets/images/install/cpu 5.1.png) |
 
 ### Video Demonstration
 
@@ -64,7 +64,7 @@ _________________________________________________
 
 | Step 1 | Step 2 | Step 3 |
 |:-:|:-:|:-:|
-|![ramstep1](/3-partinstall/assets/images/install/ram 1.png) | ![ramstep2](/3-partinstall/assets/images/install/ram 2.png) | ![ramstep4](/3-partinstall/assets/images/install/ram 3.png)  |
+|![ramstep1](/mkdocs-test/3-partinstall/assets/images/install/ram 1.png) | ![ramstep2](/mkdocs-test/3-partinstall/assets/images/install/ram 2.png) | ![ramstep4](/mkdocs-test/3-partinstall/assets/images/install/ram 3.png)  |
 
 ### Video Demonstration
 
