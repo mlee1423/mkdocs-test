@@ -1,6 +1,6 @@
-# PC Building and Maintenance
+# PC Building Introduction Guide for Beginners
 ## Introduction
-When planning to build a personal computer, having a clear idea of the type of tasks it will be performing on a daily basis is paramount. A PC being used for gaming or video editing will have very different hardware requirements than a PC being used for occasional word processing and internet browsing. Certainly one PC can be used for all of these tasks and more, but having a PC that can't perform can be frustrating and even discouraging.
+When planning to build a personal computer, having a clear idea of the type of tasks it will be performing on a daily basis is paramount. A PC being used for gaming or video editing will have very different hardware requirements than a PC being used for occasional word processing and internet browsing. Certainly one PC can be used for all of these tasks and more, but having a PC that can't perform after dedicating time and money into building it can be frustrating to say the least.
 
 ### Budget Plan
 Having a clear budget in mind is of upmost importance when planning a PC build. Deciding between performance and affordability is quite common for the average PC builder, so having that information before drafting a parts list is always recommended.
@@ -29,12 +29,21 @@ Inside the case of every computer is the following:
 #### CPU - Central Processing Unit
 The CPU's job is to execute instructions for software running on the computer. It is recommended the builder know the number of cores and thread count of each CPU being considered for purchase and installation. All CPUs have cores, but recent CPUs split each core into two virtual cores called threads, adding up to 30% extra performance. The more CPU cores, the more applications can be run on the machine at the same time without issue.
 
-#### Socket Types
+#### Socket Types and Compatible Motherboards
+
+|Processor | Socket | Compatible Motherboard |
+|:-------:|:-------:|:-------:|
+|Core i9/i7/i5/i3-12XXX | LGA1700 | Z690 Platform |
+|Core i9/i7/i5/i3-10XXX | LGA1200 | Z490/Z590 Platform |
+|Core i7/i5/i3/Pentium/Celeron | LGA 1151 | Z390 Platform |
+|Core X-Series Processor | LGA 2066 | X299 Platform |
+|AMD Ryzen | AM4 | B450/A320/X470/B550/X570 Platform |
+|AMD Ryzen Threadripper | sTRX4 | TRX 40 Platform |
 
 #### CPU Cooler
 CPUs produce a lot of heat. High temperatures can cause the system to shut down in order to protect important components, and may even cause permanent damage. Fans and heatsinks are therefore necessary in order to keep the CPU running cool. With the exception of some high-end CPUs, most boxed CPUs are bundled with a corresponding CPU cooler which can meet basic demands for heat dissipation. For better system performance, it is suggested to buy a better CPU cooler.
 
-The cooler can be classified in terms of heat dissipation medium into two types: liquid cooling and air cooling. Air coolers can be further classified into tower-style, downdraft, and updraft coolers, depending on their appearance and airflow direction. Builders should choose a cooler that fits the case and circumstance.
+Coolers can be classified in terms of heat dissipation medium into two types: liquid cooling and air cooling. Air coolers can be further classified into tower-style, downdraft, and updraft coolers, depending on their appearance and airflow direction. Builders should choose a cooler that fits the case and circumstance.
 
 ##### Consider the Following
 * Coolers need to provide corresponding brackets, as bracket positioning may vary slightly depending on the socket on the motherboard.
@@ -66,7 +75,8 @@ For a given CPU, there's often a choice of chipsets that support it. The chipset
 ##### Overclocking
 In order to overclock a processor, the overclocker intentionally increases the CPU operation frequency above the original stock specifications. Because the processor's frequency heavily impacts the effective computational speed of the CPU, the ultimate goal is to increase the frequency of the CPU in order to achieve faster performance.
 
-If a motherboard that supports overclocking is purchased, it may require dual ATX 8 pin or 8+4 pin for the CPU. Check to make sure the selected power supply has them.
+!!! warning
+    If a motherboard that supports overclocking is purchased, it may require dual ATX 8 pin or 8+4 pin for the CPU. Check to make sure the selected power supply has them.
 
 #### Memory - RAM
 Random Access Memory (RAM) is used to load and run applications, respond to commands, or toggle between multiple programs. Memory is almost always being actively used by the PC operating system. Below is a table showcasing what types of tasks can be done with different amounts of RAM.
@@ -121,142 +131,3 @@ An operating system is considered to be the backbone of any system. Without an o
 
 #### Virtual Machines
 Virtualization is the process of creating a software-based, or "virtual" version of a computer, with dedicated amounts of CPU, memory, and storage that are "borrowed" from a physical host computer—such as your personal computer— and/or a remote server—such as a server in a cloud provider's datacenter. A virtual machine is a computer file, typically called an image, that behaves like an actual computer. It can run in a window as a separate computing environment, often to run a different operating system—or even to function as the user's entire computer experience—as is common on many people's work computers. The virtual machine is partitioned from the rest of the system, meaning that the software inside a VM can't interfere with the host computer's primary operating system.
-
-To learn more check out this guide on how to install Linux and MacOS VMs on Windows 10.
-
-### Peripherals
-
-#### Expansion Cards / Networking
-##### Sound Cards
-##### Wired Network Adapters
-#### Headphones
-#### Keyboards
-#### Mice
-#### Speakers
-#### Webcams
-#### Accessories
-##### Case Accessories
-##### Case Fans
-##### Fan Controllers
-
-
-# Create Parts List
-
-Now that all components and their purpose in the construction of a computer have been explained, it is now time to make a list of all the hardware planned to go into the build. To make this task less daunting, PCPartPicker will be used to assemble the part list. This site provides computer part selection, compatibility, and pricing guidance on all PC hardware that is available to order online and in-store.
-
-## PCPartPicker Quick Start Guide
-
-Go to [pcparkpicker.com](https://pcpartpicker.com) on your web browser and select the PC Builder tool on the navigation bar.
-
-![step1](/assets/images/pcppguide/step 1.png)
-
-The following page should appear:
-
-![step1.2](/assets/images/pcppguide/step 1.2.png)
-
-Proceed with selecting components in the order provided.
-
-> **Tip**: PC Part Picker generates a hyperlink of the part list for easy sharing and storage.
-
-![step1.1](/assets/images/pcppguide/step 1.1.png)
-
-## CPU Selection
-
-There are plenty of CPUs to choose from, so keep performance needs and budget in mind when selecting.
-
-Select **Choose a CPU**
-
-![step2](/assets/images/pcppguide/step 2.png)
-
-### Sort Tool
-
-There is a sort tool available based on core attributes that most CPU buyers base decisions on.
-
-![step2.1](/assets/images/pcppguide/step 2.1.png)
-
-### Filter Tab
-
-There is a filters tab on the left under Merchants/Pricing that filters the Compatible Products list based the CPU specifications selected.
-
-![step2.1.2](/assets/images/pcppguide/step 2.1.2.png)
-
-> **Note**: If a combination of specifications are selected that are not compatible, no results will return.
-
-![step2.4](/assets/images/pcppguide/step 2.4.png)
-
-![step2.5](/assets/images/pcppguide/step 2.5.png)
-
-### Search Bar
-
-The search bar to the right of the sort tool can be utilized to find the CPU desired swiftly. The Intel i5-6600K has been searched for and is ready for selection.
-
-![step2.2.1](/assets/images/pcppguide/step 2.2.1.png)
-
-### Add to List
-
-Once the desired CPU is listed click **Add** to add that component to the PC Part List.
-
-![step2.2](/assets/images/pcppguide/step 2.2.png)
-
- The page will redirect back to the original list page with the selected CPU now appearing in the list.
-
-![step2.3](/assets/images/pcppguide/step 2.3.png)
-
-Repeat the CPU Selection steps for adding the rest of the components to the part list.
-
-![step3](/assets/images/pcppguide/step 3.png)
-
-### Motherboard Usage
-
-Underneath the part list, PCPartPicker provides a motherboard usage chart to help identify which slots are being filled by which components from the list. This can be useful for basic visualization of the interaction between components on the motherboard.
-
-![step4](/assets/images/pcppguide/step 4.png)
-
-### Compatibility Notes
-
-Directly under the final price calculation of the list there is a short compatibility notes section disclosing information found in the manuals of each selected component that explain a result of installing it onto the selected motherboard that is potentially hindering.
-
-![step6](/assets/images/pcppguide/step 6.png)
-
-![step5](/assets/images/pcppguide/step 5.png)
-
-## Check Out
-
-By default, PCPartPicker chooses the current lowest price of the part selected when adding components to the list. However, there are a few different options before check out that can be utilized.
-
-### Changing Merchants
-
-![step7](/assets/images/pcppguide/step 7.png)
-
-Looking at the list, all but two of the items can be purchased on Amazon for the lowest price. In an attempt to save on shipping costs from purchasing all items on three different sites, change the merchant for the two outliers to Amazon.
-
-By clicking the small gear to the left to the part price,
-
-![step8](/assets/images/pcppguide/step 8.png)
-
-a popup appears that gives the option to change merchants regardless of price.
-Select **Amazon** from the **Use Current Price From Specific Merchant** option.
-
-![step9](/assets/images/pcppguide/step 9.png)
-
-Click **Save Part Price Setting** to save the changes made.
-
-![step10](/assets/images/pcppguide/step 10.png)
-
-Checking the list, Best Buy has been overridden by Amazon as the primary merchant.
-
-![step11](/assets/images/pcppguide/step 11.png)
-
-Repeating this step for the GPU from newegg.com, all parts are now selected to be purchased using Amazon.
-
-![step11.1](/assets/images/pcppguide/step 11.1.png)
-
-Click **Buy From Amazon** to order all parts on the list at once.
-
-![step12](/assets/images/pcppguide/step 12.png)
-
-The page will open a New Tab and redirect to Amazon.com with all parts ready to be added to cart.
-
-![step13](/assets/images/pcppguide/step 13.png)
-
-Complete the purchase through Amazon's site. Most parts will be delivered within 2 weeks.

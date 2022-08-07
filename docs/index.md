@@ -1,11 +1,5 @@
-# Welcome to MLDocs
-
-## Introduction
-
-!!! note "this is a note test"
-    testing the note call out
-
-This site is the current portfolio of my technical writing documentation. Each tab represents a different document. Please feel free to jump around.
+# Welcome!
+Each tab represents a different document. Please feel free to jump around.
 
 Thank you!
 
@@ -13,5 +7,3 @@ Thank you!
 
 ## About Me
 Experienced technical writer with a passion for learning new things. Currently looking to slightly pivot from previous work into exclusively writing documentation. Strong engineering professional with a Bachelor's Degree focused in Electrical and Computer Engineering from the University of Texas at San Antonio.
-
-In my free time I enjoy traveling with friends and family, lounging with my cat, and going bowling.

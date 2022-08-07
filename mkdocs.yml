@@ -1,4 +1,4 @@
-site_name: Knowledge Base
+site_name: Meghann's Technical Writing Portfolio
 
 theme:
   name: material
@@ -11,9 +11,19 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-  plugins:
-    - search
-  markdown_extensions:
-    -admonition
-    -pymdownx.details
-    -pymdownx.superfences
+plugins:
+  - search
+  - mkdocs-video:
+      mark: "emb-video"
+      css_style:
+        width: "60%"
+        height: "22.172vw"
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - attr_list
+  - md_in_html
+  - admonition
+  - codehilite
+  - pymdownx.superfences
