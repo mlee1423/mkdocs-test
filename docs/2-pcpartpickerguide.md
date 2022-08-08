@@ -1,14 +1,32 @@
-# PC Part Buying Guide
+# Beginner's Hardware Purchase Guide for PC Building
 
-## Create Parts List
+## Build Planning
 
-Now that all components and their purpose in the construction of a computer have been explained, it is now time to make a list of all the hardware planned to go into the build. To make this task less daunting, PCPartPicker will be used to assemble the part list. This site provides computer part selection, compatibility, and pricing guidance on all PC hardware that is available to order online and in-store.
+### Intended Purpose
 
-Go to [pcparkpicker.com](https://pcpartpicker.com) on your web browser and select the PC Builder tool on the navigation bar.
+When planning to build a personal computer, having a clear idea of the type of tasks it will be performing on a daily basis is paramount. A PC being used for gaming or video editing will have very different hardware requirements than a PC being used for occasional word processing and internet browsing.
+
+### Budget 
+Having a clear budget in mind is of upmost importance when planning a PC build. Deciding between performance and affordability is quite common for the average PC builder, so having that information before drafting a part list is always recommended. Be sure to know what the PC will be doing
+
+Below is a table of cost ranges, the type of tasks computers built with that budget can execute, and the primary component that influences performance on those tasks.
+
+| Desktop      | Gaming    | Workstation|
+|:--------------:|:-----------:|:------------:|
+| $300-$800    |$900-$1,500| $1,600+   |
+|   Web Browsing, Office Apps, Audio/Video Playback    | Gaming, Audio/Video Editing, Crypto Mining  | Audio/Video Encoding, Number Crunching, Virtual Machines, Databases|
+| Single Core CPU Performance |  GPU Performance | Multi Core CPU and GPU Performance |
+
+Once the budget has been decided, the part list can be created. To make this task less daunting, PCPartPicker will be used to assemble the part list. This site provides computer part selection, compatibility, and pricing guidance on all PC hardware that is available to order online right now.
+
+## Creating the Part List
+
+### PC Part Picker
+Go to [pcparkpicker.com](https://pcpartpicker.com) on your web browser and select **PC Builder** on the navigation bar.
 
 ![step1](./assets/images/pcppguide/step 1.png){: style="width:40em"}
 
-The following page should appear:
+The following page should load:
 
 ![step1.2](./assets/images/pcppguide/step 1.2.png){: style="width:40em"}
 
@@ -17,23 +35,31 @@ The following page should appear:
 
     ![step1.1](./assets/images/pcppguide/step 1.1.png){: style="width:25em"}
 
-Proceed with selecting components in the order provided.
+The part list is now ready to be created.
 
-
-## Component Selection
-Select **Choose a CPU**
+#### Component Selection
+To begin, select **Choose a CPU.**
 
 ![step2](./assets/images/pcppguide/step 2.png){: style="width:20em"}
 
-### Sort Tool
+Since this is the first component, PC Part Picker will return every CPU on the online market right now. Once more components are added to the part list, the compatibility filter will be altering the results to show only products compatible with the items on the list.
 
-There is a sort tool available based on core attributes that most CPU buyers base decisions on.
+![step2.0](./assets/images/pcppguide/step 2.0.png){: style="width:25em"}
 
-![step2.1](./assets/images/pcppguide/step 2.1.png){: style="width:40em"}
+#### Narrowing Product Options  
+The following are three tools PC Part Picker provides that help manage which results are displayed.  
 
-### Filter Tab
+_____________________________________________________________
 
-There is a filters tab on the left under Merchants/Pricing that filters the Compatible Products list based the CPU specifications selected.
+##### Sort Tool
+
+The **sort tool**, to the right of the Compatible Products text, arranges the results based on what sort method is selected.
+
+![step2.1](./assets/images/pcppguide/step 2.1.png){: style="width:30em"}
+
+##### Filter Tab
+
+The **filters tab**, to the far left of the screen under the Merchants/Pricing tab, removes certain products from the results based on the selected specifications.
 
 ![step2.1.2](./assets/images/pcppguide/step 2.1.2.png){: style="width:10em"}
 
@@ -44,45 +70,49 @@ There is a filters tab on the left under Merchants/Pricing that filters the Comp
 
 
 
-### Search Bar
+##### Search Bar
 
-The search bar to the right of the sort tool can be utilized to find the CPU desired swiftly. The Intel i5-6600K has been searched for and is ready for selection.
+The **search bar**, to the right of the sort tool, can be utilized to find the desired product swiftly. The Intel i5-6600K has been searched for and is ready for selection.
 
 ![step2.2.1](./assets/images/pcppguide/step 2.2.1.png){: style="width:40em"}
 
-### Add to List
+#### Add to List
 
-Once the desired CPU is listed, click **Add** to add that component to the PC Part List.
+Once the desired product is listed, click **Add** to add that component to the PC Part List.
 
 ![step2.2](./assets/images/pcppguide/step 2.2.png){: style="width:40em"}
 
- The page will redirect back to the original list with the selected CPU now present.
+ The page will redirect back to the original list with the selected product now present.
 
 ![step2.3](./assets/images/pcppguide/step 2.3.png){: style="width:40em"}
 
-Repeat the CPU Selection steps for adding the rest of the components to the part list.
+Repeat these steps for adding the rest of the components to the part list as seen below:
 
 ![step3](./assets/images/pcppguide/step 3.png){: style="width:40em"}
 
-### Motherboard Usage
-
-Underneath the part list, PCPartPicker provides a motherboard usage chart to help identify which slots are being filled by which components from the list. This can be useful for basic visualization of the interaction between components on the motherboard.
-
-![step4](./assets/images/pcppguide/step 4.png){: style="width:30em"}
-
 ### Compatibility Notes
 
-Directly under the final price calculation of the list there is a short compatibility notes section disclosing information found in the manuals of each selected component that explain a result of installing it onto the selected motherboard that is potentially hindering.
-
-![step6](./assets/images/pcppguide/step 6.png){: style="width:30em"}
+Underneath the Part List, there is a **Compatibility Notes** section that discloses select information of each component that requires attention from the PC builder during construction.
 
 ![step5](./assets/images/pcppguide/step 5.png){: style="width:30em"}
 
+Each letter in the Compatibility Note section corresponds to the same letter in the Motherboard Usage diagram (see section below), highlighting that specific component and giving context to the note.
+
+![step6](./assets/images/pcppguide/step 6.png){: style="width:30em"}
+
+#### Usage Diagram
+
+Underneath the Compatibility Notes, a **Motherboard Usage** diagram is displayed to help identify which components from the list are filling what section of the motherboard. This can be useful for having a basic visualization of the interaction between the components and motherboard.
+
+![step4](./assets/images/pcppguide/step 4.png){: style="width:30em"}
+
+
+
 ## Check Out
 
-By default, PCPartPicker chooses the current lowest price of the part selected when adding components to the list. However, there are a few different options before check out that can be utilized.
-
 ### Changing Merchants
+
+By default, PC Part Picker selects the merchant with the current lowest price of the product being adding components to the list.
 
 ![step7](./assets/images/pcppguide/step 7.png){: style="width:10em"}
 
@@ -105,16 +135,17 @@ Checking the list, Best Buy has been overridden by Amazon as the primary merchan
 
 ![step11](./assets/images/pcppguide/step 11.png){: style="width:40em"}
 
-Repeating this step for the GPU from newegg.com, all parts are now selected to be purchased using Amazon.
+Repeating this step for the GPU, all parts are now selected to be purchased using Amazon.
 
 ![step11.1](./assets/images/pcppguide/step 11.1.png){: style="width:40em"}
 
-Click **Buy From Amazon** to order all parts on the list at once.
+### Final Purchase
+Once ready to purchase click **Buy From Amazon** to order all parts on the list at once.
 
 ![step12](./assets/images/pcppguide/step 12.png){: style="width:20em"}
 
-The page will open a New Tab and redirect to Amazon.com with all parts ready to be added to cart.
+The page will open a New Tab and redirect to **Amazon.com** with all parts ready to be added to cart.
 
-![step13](./assets/images/pcppguide/step 13.png){: style="width:40em"}
+![step13](./assets/images/pcppguide/step 13.png){: style="width:30em"}
 
 Complete the purchase through Amazon's site. Most parts will be delivered within 2 weeks.

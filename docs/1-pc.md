@@ -1,19 +1,6 @@
-# PC Building Introduction Guide for Beginners
+# Beginner's Introduction Guide for PC Building
 ## Introduction
-When planning to build a personal computer, having a clear idea of the type of tasks it will be performing on a daily basis is paramount. A PC being used for gaming or video editing will have very different hardware requirements than a PC being used for occasional word processing and internet browsing. Certainly one PC can be used for all of these tasks and more, but having a PC that can't perform after dedicating time and money into building it can be frustrating to say the least.
 
-### Budget Plan
-Having a clear budget in mind is of upmost importance when planning a PC build. Deciding between performance and affordability is quite common for the average PC builder, so having that information before drafting a parts list is always recommended.
-
-Below is a table of cost ranges, the type of tasks computers built with that budget can execute, and the primary component that influences performance on those tasks.
-
-| Desktop      | Gaming    | Workstation|
-|:--------------:|:-----------:|:------------:|
-| $300-$800    |$900-$1,500| $1,600+   |
-|   Web Browsing, Office Apps, Audio/Video Playback    | Gaming, Audio/Video Editing, Crypto Mining  | Audio/Video Encoding, Number Crunching, Virtual Machines, Databases|
-| Single Core CPU Performance |  GPU Performance | Multi Core CPU and GPU Performance |
-
-Once the budget has been decided, the parts list can be created.
 
 ### Components
 Inside the case of every computer is the following:

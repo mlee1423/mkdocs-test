@@ -1,12 +1,11 @@
-# PC Part Installation Guide
+# Beginner's Hardware Installation Guide for PC Building
 
 ## Preparation
 
 
 ### Required Tools
 
-- Screwdriver (magnetic preferred but not required)
-- Scissors
+- Screwdriver (magnetic preferred, but not required)
 - Zip Ties or Velcro Straps (some parts come with these, check the box beforehand)
 - Non Conductive Surface for Assembly
 
@@ -14,20 +13,25 @@
 If not done already, unbox all components and insure that all hardware, brackets, screws, and other accessories are present.
 
 _______________________________________________
-Once preparation is complete, move on to Step 1.
+
+The order presented is recommended based on past experience. Technically, components can be installed in any order (besides the CPU cooler before the CPU), but this order has proven to have the least issues and smoothest construction.
 
 ## Step 1 - CPU Installation
+Locate the CPU socket on the motherboard. Consult the manual for the exact location.
+
 1. Unlatch lid of the CPU socket.
-2. Line up the triangle notch printed on CPU with guiding triangle notch printed on socket. (usually in the bottom left corner)
+2. Line up the triangle notch printed on CPU with guiding triangle notch printed on the socket. (usually in the bottom left corner)
 3. Carefully insert CPU inside socket.
 
     !!! caution
-        Be careful with CPU socket pins, they are quite fragile, any slight collision can bend the pins, which can cause function errors.
+        Be careful with CPU socket pins, they are quite fragile and any slight collision can bend them, causing functionality errors later on.
 
-4. Ensure CPU proper placement and close the lid of socket to lock it onto the processor.
+4. Ensure CPU proper placement and close lid of socket to lock it onto the processor.
 
-    !!! help "Hearing a nasty noise during installation?"
-        There will be grainy, crunchy metallic noises during this process, as the pins of the CPU and socket are being tightly combined.  This is normal.
+    !!! help "Strange Noises?"
+        **Intel:** There will be a few popping and cracking noises during this process, as the pins are being raised from the socket of the motherboard to make contact with the CPU. Be sure to check CPU orientation regardless.
+
+        **AMD:** There should be **no** crunching noises during installation as the processor should effortlessly fall into the socket. Check the orientation of the CPU and consult the CPU manual for details.
 
 5. If the processor protective plate does not disengage after step 4, gently remove it.
 
@@ -46,12 +50,18 @@ Once preparation is complete, move on to Step 1.
 
 ### Video Demonstration
 
+#### Intel CPU Installation
 ![emb-video](https://www.youtube.com/embed/UTKxMAnFHnw)
-_________________________________________________
+
+#### AMD CPU Installation
+![emb-video](https://www.youtube.com/embed/lVGjxdj08d4)
+
 !!! help "Still Unsure?"
-    If ever unsure of installation method, consult the specific CPU manual for detailed instructions.
+    If ever unsure of installation method, review the motherboard manual for detailed instructions on CPU installation.
 
 ## Step 2 - Memory Installation
+Locate the DIMM slots on the motherboard. Consult the manual for the exact location.
+
 1. Press down on the lock/eject tabs on the ends of the memory socket.
 2. Consult the memory module installation order outlined in the motherboard manual
 
@@ -70,42 +80,72 @@ _________________________________________________
 
 ![emb-video](https://www.youtube.com/embed/FcYB1hPf-dE)
 
-## Step 3 - M.2 Drive Installation
-1. Move and fasten riser screws on the M.2 standoffs.
-2. Take the drive and gently insert it into the connector at a 30 degree angle.
-3. Push the drive down towards the standoff and secure it with the included screw.
+!!! help "Still Unsure?"
+    If ever unsure of installation method, review the motherboard manual for detailed instructions on RAM installation.
 
-    !!! Tip
-        Sometimes the screw that secures the drive to the motherboard is not pre-installed. If it is not there, check the motherboard's packaging and accessories.
+## Step 3 - M.2 Drive Installation
+Locate the M.2 socket on the motherboard. Consult the motherboard manual for the exact location.
+
+!!! question "If Heatsink is Pre-Installed"
+    Some motherboards ship with a heatsink pre-installed in the M.2 socket. Be sure to remove it and place it to the side before proceeding.
+
+1. Take the M.2 drive and gently insert it into the M.2 socket at a 30 degree angle.
+2. Push the drive down towards the support assembly.
+
+    !!! example "Heatsink Owners Only"
+        Take heatsink, remove the plastic, insert the notch to the top of the M.2 socket, and lay the heatsink flush with the M.2 drive. Proceed with the next step.
+
+3. Secure the drive with the corresponding screw.
 
 ### Illustrated Guide
+
+| Step 1 | Step 2 | Step 3 |
+|:-:|:-:|:-:|
+|![m2step1](./assets/images/install/m2 2.png) | ![m2step2](./assets/images/install/m2 3.png) | ![m2step3](./assets/images/install/m2 4.png)  |
 
 ### Video Demonstration
 
 ![emb-video](https://www.youtube.com/embed/2UeWMgjwogU)
 
+!!! help "Still Unsure?"
+    If ever unsure of installation method, review the M.2 manual for detailed instructions.
+
 ## Step 4 - CPU Cooler Installation
-1. Mount the back-plate onto the back of the motherboard if there is one.
+Locate the back of the motherboard.
+
+1. Mount the back-plate onto the back of the motherboard.
 2. Apply a pea-sized drop of thermal paste onto the surface of the processor.
 
     !!! warning
-        **Be mindful while performing this step.** Too little paste can cause poor contact while too much can cause excess paste to go into the socket.  
+        **Be mindful while performing this step.** Too little paste can cause poor contact while too much can cause excess paste to bleed into the socket.  
 
-3. Connect CPU Fan Cable to the CPU Fan Header on the motherboard.
-4. Lower the cooler vertically and place it onto the CPU. Secure it by evenly tightening opposite screws progressively.
-    !!! info
-        Make sure the screws are tightened properly, and the pressure applied at the corners is even to avoid CPU damage and cooling performance degradation.
+3. Lower the cooler vertically and place it onto the CPU. Secure it by evenly tightening opposite screws progressively. Make sure the screws are tightened properly, and the pressure applied at the corners is even to avoid CPU damage and cooling performance degradation.
+
+4. Connect CPU Fan Cable to the CPU Fan Header on the motherboard.
+
 
 ### Illustrated Guide
+| Step 1 | Step 2 | Step 3 | Step 4 |
+|:-:|:-:|:-:|:-:|
+|![fanstep1](./assets/images/install/fan 1.png) | ![fanstep2](./assets/images/install/fan 2.png) | ![fanstep3](./assets/images/install/fan 3.png)  |![fanstep4](./assets/images/install/fan 4.png)  |
+
 ### Video Demonstration
 
+![emb-video](https://www.youtube.com/embed/LD3XYUYS9hE)
+
+!!! help "Still Unsure?"
+    If ever unsure of installation method, review the motherboard manual for detailed instructions on CPU Cooler installation.
+
 ## Step 5 - Motherboard Installation
+Locate PC Casing and remove side panel before proceeding.
+
 1. Install I/O shield onto the back of the case.
 2. Gently lower the motherboard at a 45 degree angle into the case.
 3. Match the mounting holes on the motherboard with the stand-offs in the case.
 4. Secure the board with each of the supplied screws.
 
 ### Illustrated Guide
+
 ### Video Demonstration
 
 ## Step 6 - Storage Installation
