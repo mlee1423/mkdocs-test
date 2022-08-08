@@ -13,7 +13,7 @@
     
     
       
-        <title>Beginner's Introduction Guide for PC Building - Meghann's Technical Writing Portfolio</title>
+        <title>Beginner's Introduction Guide to PC Building - Meghann's Technical Writing Portfolio</title>
       
     
     
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#beginners-introduction-guide-for-pc-building" class="md-skip">
+        <a href="#beginners-introduction-guide-to-pc-building" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Beginner's Introduction Guide for PC Building
+              Beginner's Introduction Guide to PC Building
             
           </span>
         </div>
@@ -155,7 +155,7 @@
 
   <li class="md-tabs__item">
     <a href=".." class="md-tabs__link">
-      Welcome!
+      Welcome
     </a>
   </li>
 
@@ -169,7 +169,7 @@
 
   <li class="md-tabs__item">
     <a href="./" class="md-tabs__link md-tabs__link--active">
-      Beginner's Introduction Guide for PC Building
+      Beginner's Introduction Guide to PC Building
     </a>
   </li>
 
@@ -247,7 +247,7 @@
   
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
-        Welcome!
+        Welcome
       </a>
     </li>
   
@@ -271,12 +271,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Beginner's Introduction Guide for PC Building
+          Beginner's Introduction Guide to PC Building
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Beginner's Introduction Guide for PC Building
+        Beginner's Introduction Guide to PC Building
       </a>
       
         
@@ -295,14 +295,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
-  </a>
-  
-    <nav class="md-nav" aria-label="Introduction">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#components" class="md-nav__link">
     Components
   </a>
@@ -315,7 +307,8 @@
     CPU - Central Processing Unit
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="CPU - Central Processing Unit">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#sockets" class="md-nav__link">
@@ -335,6 +328,11 @@
   <a href="#overclocking" class="md-nav__link">
     Overclocking
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -450,16 +448,11 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#operating-systems" class="md-nav__link">
     Operating Systems
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -515,9 +508,8 @@
                 
 
 
-<h1 id="beginners-introduction-guide-for-pc-building">Beginner's Introduction Guide for PC Building<a class="headerlink" href="#beginners-introduction-guide-for-pc-building" title="Permanent link">&para;</a></h1>
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
-<h3 id="components">Components<a class="headerlink" href="#components" title="Permanent link">&para;</a></h3>
+<h1 id="beginners-introduction-guide-to-pc-building">Beginner's Introduction Guide to PC Building<a class="headerlink" href="#beginners-introduction-guide-to-pc-building" title="Permanent link">&para;</a></h1>
+<h2 id="components">Components<a class="headerlink" href="#components" title="Permanent link">&para;</a></h2>
 <p>Inside the case of every computer is the following:</p>
 <ul>
 <li>CPU</li>
@@ -528,24 +520,29 @@
 <li>Storage</li>
 <li>PSU</li>
 </ul>
-<h4 id="cpu-central-processing-unit">CPU - Central Processing Unit<a class="headerlink" href="#cpu-central-processing-unit" title="Permanent link">&para;</a></h4>
-<p>The CPU, or Central Processing Unit, is one of the most important parts of any PC. As the primary hub, it processes the instructions that come from programs, the operating system, or other components in the computer. The CPU is a small electronic chip that is made up of billions of transistors.</p>
-<p>Transistors, when being used to create a CPU, act as on/off switches, transmitting electrical signals as binary code sequences(machine language). This allows the standardization of a protocol called the Instruction Cycle. Once a program instruction is made, the CPU, using machine code, is able to take (fetch), process (decode), and execute instructions repeatedly until the entire program instruction is complete.</p>
+<h3 id="cpu-central-processing-unit">CPU - Central Processing Unit<a class="headerlink" href="#cpu-central-processing-unit" title="Permanent link">&para;</a></h3>
+<p><img alt="cpu" src="../assets/images/cpu.png" style="width:15em" /></p>
+<p>The CPU, or Central Processing Unit, is one of the most important parts of any PC. As the primary hub, it processes instructions that come from programs, the operating system, or other components in the computer. Not too long ago, these functions had to be split across multiple processors to be completed, but manufacturing and design improvements have made it so that the entire CPU can fit onto a single chip.</p>
+<p>CPUs work in sequence, which means that every instruction set processed can only be executed in order, one after another. This process happens in three stages: fetch, decode, execute. The CPU takes (fetches) the instruction, processes (decodes) it to be able to read it properly, and then executes it.</p>
 <div class="admonition tip">
 <p class="admonition-title">Fun Fact</p>
 <p>The 4-bit Intel 4004 was the world's first commercial CPU introduced in 1971. It clocked at 740 KHz and could execute up to 92,600 instructions per second. For perspective, the new 12th Gen Intel Core i9 clocks up to 5.2 GHz and can execute over a million instructions per second!</p>
 </div>
-<p>COre</p>
-<p>thread</p>
+<p>Originally, CPUs had a single core. Meaning that the physical CPU had just a single central processing unit on it. To increase performance, manufacturers add additional cores. Multicore processors are made up of two or more CPUs on a single chip. The individual cores can execute multiple instructions in parallel, which greatly increases software performance while multi-tasking.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>There are two major CPU manufacturers: <strong>Intel</strong> and <strong>AMD</strong>. Both companies frequently trade places for offering better value in terms of cores and threads, without sacrificing too much in the performance department.</p>
+</div>
+<p>For even greater performance enhancement, manufacturers Intel and AMD began using "hyper-threading" and "simultaneous multithreading (SMT)", respectively. A thread is a virtual version of a CPU core. A single CPU core can have up to two threads per core (e.g. A dual core CPU will have four threads). While cores increase the number of tasks available to execute at one time, threads improve overall performance by being able to manage the task processes.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Opening an application on a computer creates a <strong>thread</strong> to handle tasks associated with that particular application. Opening and running more applications creates more threads.</p>
 </div>
 <h4 id="sockets">Sockets<a class="headerlink" href="#sockets" title="Permanent link">&para;</a></h4>
 <p>The CPU Socket is where the CPU is housed when installed onto the motherboard. Socket types are built into the motherboard and cannot be changed. Each pin is wired to communicate with a specific part of the system.</p>
 <h4 id="chipsets">Chipsets<a class="headerlink" href="#chipsets" title="Permanent link">&para;</a></h4>
 <p>For a given CPU, there's often a choice of chipsets that support it. A chipset acts as the motherboard's communications center and traffic controller. It determines component compatibility, expansion options, and overclockability.</p>
-<p>Below is a table showing common CPUs, their socket type, and available chipsets.</p>
+<p>Below is a table showing common CPUs, their socket type, and corresponding available chipsets.</p>
 <table>
 <thead>
 <tr>
@@ -593,14 +590,15 @@
 </div>
 <h4 id="overclocking">Overclocking<a class="headerlink" href="#overclocking" title="Permanent link">&para;</a></h4>
 <p>In order to overclock a processor, the user intentionally increases the CPU operation frequency above the original stock specifications. Because the processor's frequency heavily impacts the effective computational speed of the CPU, the ultimate goal is to increase the frequency of the CPU in order to achieve faster performance.</p>
-<h4 id="cpu-cooler">CPU Cooler<a class="headerlink" href="#cpu-cooler" title="Permanent link">&para;</a></h4>
+<h3 id="cpu-cooler">CPU Cooler<a class="headerlink" href="#cpu-cooler" title="Permanent link">&para;</a></h3>
+<p><img alt="cpufan" src="../assets/images/cpu%20fan.png" style="width:15em" /></p>
 <p>CPUs produce a lot of heat. High temperatures can cause the system to shut down in order to protect important components, and may even cause permanent damage. Fans and heatsinks are therefore necessary in order to keep the CPU running cool.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>With the exception of some high-end CPUs, most boxed CPUs are bundled with a corresponding CPU cooler which can meet basic demands for heat dissipation. For better system performance, it is suggested to purchase a separate CPU cooler.</p>
 </div>
 <p>Coolers can be classified in terms of heat dissipation medium into two types: liquid cooling and air cooling. Air coolers can be further classified into tower-style, downdraft, and updraft coolers, depending on their appearance and airflow direction.</p>
-<h5 id="consider-the-following">Consider the Following<a class="headerlink" href="#consider-the-following" title="Permanent link">&para;</a></h5>
+<h4 id="consider-the-following">Consider the Following<a class="headerlink" href="#consider-the-following" title="Permanent link">&para;</a></h4>
 <ul>
 <li>
 <p>Coolers need to provide corresponding brackets, as bracket positioning may vary slightly depending on the socket on the motherboard.</p>
@@ -612,18 +610,20 @@
 <p>Choose a cooler that fits the PC Case. Powerful coolers often have large heat sinks, so it is important to choose a cooler that can fit into the case without obstructing other components.</p>
 </li>
 </ul>
-<h4 id="motherboard">Motherboard<a class="headerlink" href="#motherboard" title="Permanent link">&para;</a></h4>
+<h3 id="motherboard">Motherboard<a class="headerlink" href="#motherboard" title="Permanent link">&para;</a></h3>
+<p><img alt="mb" src="../assets/images/mb.png" style="width:15em" /></p>
 <p>The motherboard, also called the mainboard, links all the components of the computer, connecting the processor, memory modules, graphics and expansion cards, hard drives, and connections to the network, keyboard, mouse, and more.</p>
-<h5 id="dimensions">Dimensions<a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h5>
+<h4 id="dimensions">Dimensions<a class="headerlink" href="#dimensions" title="Permanent link">&para;</a></h4>
 <p>Common motherboard sizes include:</p>
 <ul>
 <li>ATX (30.5cm x 24.4cm)</li>
 <li>Micro-ATX (24.4cm x 24.4cm)</li>
 <li>Mini-ATX (17cm x 17cm)</li>
 </ul>
-<h4 id="memory-ram">Memory - RAM<a class="headerlink" href="#memory-ram" title="Permanent link">&para;</a></h4>
+<h3 id="memory-ram">Memory - RAM<a class="headerlink" href="#memory-ram" title="Permanent link">&para;</a></h3>
+<p><img alt="ram" src="../assets/images/ram.png" style="width:15em" /></p>
 <p>Random Access Memory (RAM) is used to load and run applications, respond to commands, or toggle between multiple programs. Memory is almost always being actively used by the PC operating system. Different programs require different amounts of RAM, but regardless of the application, it's likely to use a small amount. Adding up over time, if too much RAM is being used at one time, the applications currently being used will slow down severely.</p>
-<h5 id="capacity-comparison">Capacity Comparison<a class="headerlink" href="#capacity-comparison" title="Permanent link">&para;</a></h5>
+<h4 id="capacity-comparison">Capacity Comparison<a class="headerlink" href="#capacity-comparison" title="Permanent link">&para;</a></h4>
 <table>
 <thead>
 <tr>
@@ -638,15 +638,18 @@
 <td>Bare Minimum. Adequate only for word processing, e-mail, and web browsing</td>
 <td>Standard. Minimum required for gaming.</td>
 <td>Ideal for gaming and most systems and tasks</td>
-<td>Any kind of system intensive, workstation-grade tasks; programming, virtual machines, photo and video editing and compositing.</td>
+<td>Any kind of system intensive, workstation-grade tasks; programming, virtual machines, photo and video editing.</td>
 </tr>
 </tbody>
 </table>
-<h4 id="gpu-graphical-processing-unit">GPU - Graphical Processing Unit<a class="headerlink" href="#gpu-graphical-processing-unit" title="Permanent link">&para;</a></h4>
+<h3 id="gpu-graphical-processing-unit">GPU - Graphical Processing Unit<a class="headerlink" href="#gpu-graphical-processing-unit" title="Permanent link">&para;</a></h3>
+<p><img alt="gpu" src="../assets/images/gpu.png" style="width:20em" /></p>
 <p>A GPU, or graphics card, is an expansion card that fits into the PCIe slot on the motherboard. It handles complex graphical instructions, computing images, textures and objects, and sends the result to one or more monitors. The motherboard may have HDMI, DisplayPort, or older DVI or VGA ports, driven by the integrated graphics GPU inside some processors.</p>
-<h4 id="storage">Storage<a class="headerlink" href="#storage" title="Permanent link">&para;</a></h4>
+<h3 id="storage">Storage<a class="headerlink" href="#storage" title="Permanent link">&para;</a></h3>
+<p><img alt="ssd" src="../assets/images/ssd.png" style="width:10em" /></p>
 <p>Storage has evolved from hard drives that use magnetic technology to store data on spinning disks. Reaching 20 terabytes (TB) or more, 4 to 8 TB drives are a cost-effective option for mass storage. But, with data transfer around 140 or 180 megabytes (MB) per second, speed is far surpassed by Solid State Drives (SSDs) and SATA m.2 drives.</p>
-<h4 id="psu-power-supply">PSU - Power Supply<a class="headerlink" href="#psu-power-supply" title="Permanent link">&para;</a></h4>
+<h3 id="psu-power-supply">PSU - Power Supply<a class="headerlink" href="#psu-power-supply" title="Permanent link">&para;</a></h3>
+<p><img alt="psu" src="../assets/images/psu.png" style="width:15em" /></p>
 <p>Power supply is important when building a PC, as it converts AC power into DC power for the CPU, motherboard, graphics card, and all peripherals. General guidelines are as follows:</p>
 <ul>
 <li>500-600 Watts for a PC using the web and office apps.</li>
@@ -658,10 +661,10 @@
 </div>
 </li>
 </ul>
-<h5 id="energy-efficiency">Energy Efficiency<a class="headerlink" href="#energy-efficiency" title="Permanent link">&para;</a></h5>
+<h4 id="energy-efficiency">Energy Efficiency<a class="headerlink" href="#energy-efficiency" title="Permanent link">&para;</a></h4>
 <p>The 80 Plus certification program for power supply units offers 80 Plus, 80 Plus Bronze, 80 Plus Silver, 80 Plus Gold, 80 Plus Platinum and 80 Plus Titanium certification levels. The most efficient (and most expensive) Titanium tier offers more than 90% energy efficiency.</p>
 <p>The 80 plus bronze, silver, gold, platinum and titanium ratings have 2 to 3 percent efficiency gains between tiers, starting with bronze at 82 percent, and titanium having 92% efficiency, though that comes with a price. Modular power supplies can reduce cable clutter in the PC case, and can make wiring components and cable management easier. And note that CPU and PCI 6+2 connectors may look the same, but they won't fit each other's sockets.</p>
-<h5 id="power-supply-design">Power Supply Design<a class="headerlink" href="#power-supply-design" title="Permanent link">&para;</a></h5>
+<h4 id="power-supply-design">Power Supply Design<a class="headerlink" href="#power-supply-design" title="Permanent link">&para;</a></h4>
 <p>Below is a table covering the different pros and cons between the three PSU design types on the market.</p>
 <table>
 <thead>
@@ -709,7 +712,8 @@
 <p class="admonition-title">Warning</p>
 <p>If a motherboard that supports overclocking is purchased, it may require dual ATX 8 pin or 8+4 pin for the CPU. Check to make sure the selected power supply has them.</p>
 </div>
-<h4 id="case">Case<a class="headerlink" href="#case" title="Permanent link">&para;</a></h4>
+<h3 id="case">Case<a class="headerlink" href="#case" title="Permanent link">&para;</a></h3>
+<p><img alt="case" src="../assets/images/case.png" style="width:10em" /></p>
 <p>Selecting a case can be done mostly to personal taste, but there are a few factors to keep in mind.</p>
 <ul>
 <li>The case needs to have good air flow, so there should be lots of fan mounting spots. Also look for wide openings at the front for air to enter, and having them filtered will help keep dust out of the case.</li>
@@ -727,7 +731,7 @@
 <p>Tempered glass panels show off the internals but add considerable weight, and care must be taken when transporting and after installation, being careful not to torque fasteners too tightly on the glass as over time this can cause it to shatter.</p>
 </li>
 </ul>
-<h3 id="operating-systems">Operating Systems<a class="headerlink" href="#operating-systems" title="Permanent link">&para;</a></h3>
+<h2 id="operating-systems">Operating Systems<a class="headerlink" href="#operating-systems" title="Permanent link">&para;</a></h2>
 <p>An operating system is considered to be the backbone of any system. Without an operating system, the user and system cannot interact. The three most universally used operating systems are: Windows, MacOS, and Linux.</p>
 <ul>
 <li><strong>Windows</strong> is developed by Microsoft and is comparatively the most accessible operating system on the market.</li>
@@ -754,7 +758,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome!" rel="prev">
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -763,7 +767,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Welcome!
+              Welcome
             </div>
           </div>
         </a>
