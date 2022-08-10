@@ -124,8 +124,8 @@ Random Access Memory (RAM) is used to load and run applications, respond to comm
 |-----|-----|------|------|
 |Decent. Adequate only for word processing, e-mail, and web browsing. | Standard. Minimum required for gaming.| Great. Ideal for gaming and most system tasks. | Premium. Any kind of system intensive, workstation-grade tasks; programming, virtual machines, photo and video editing. |
 
-!!! info "Important Info"
-    It is not possible to **download** more RAM. RAM is a **physical** object.
+!!! bug "Common Virus Scam"
+    It is not possible to **download** more RAM. RAM is a **physical** object. This is a common trick to have a user download a virus and infect the PC.
 
 ### GPU - Graphical Processing Unit
 ![gpu](./assets/images/gpu.png){: style="width:20em"}
@@ -137,14 +137,14 @@ A GPU, or graphics card, is an expansion card that fits into the PCI-e slot on t
 
 #### Performance Comparison
 
-There are two main companies that make most of the GPUs on the current market: **Nvidia** and **AMD**.
+There are two main companies that make most of the GPUs on the current market: **Nvidia** and **AMD**. Below is a table comparing their products by usage and performance class.
 
 | Usage | Performance | GPU |
 |-----|-----|------|
-|Decent. Games play at 1080p or lower at medium-to-low settings. | Budget | Nvidia GeForce GTX 1650 Super, Nvidia GTX 1650; AMD Radeon RX 6500 XT, RX 6400, RX 5500 XT 4GB/8GB  |  
-| Standard. Games play at 1080p at medium-to-high settings. | Mid-Range | Nvidia GeForce RTX 3050, RTX 2060, GTX 1660 Ti, GTX 1660 Super, GTX 1660; AMD Radeon RX 6600 XT, RX 6600, RX 5700, RX 5600 XT |
-| Great. Games play at 1440p or 1080p w/ 144Hz refresh rate at high-to-ultra settings. | High-End | Nvidia GeForce RTX 3070 Ti, RTX 3070, RTX 3060 Ti, RTX 3060, RTX 2080 Ti, RTX 2080 Super, RTX 2070 Super, RTX 2070, RTX 2060 Super; AMD Radeon RX 6800, RX 5700 XT |
-| Premium. Support 4k, new ray-tracing and AI technology. | Premium/Extreme | Nvidia GeForce RTX 3090 Ti, 3090, RTX 3080 Ti, RTX 3080, Titan RTX. AMD Radeon RX 6900 XT, RX 6800 XT |
+|Decent. Games play at 1080p or lower at medium-to-low settings. | Budget | **Nvidia**: GeForce GTX 1650 Super, GTX 1650. **AMD**: Radeon RX 6500 XT, RX 6400, RX 5500 XT 4GB/8GB. |  
+| Standard. Games play at 1080p at medium-to-high settings. | Mid-Range | **Nvidia**: GeForce RTX 3050, RTX 2060, GTX 1660 Ti, GTX 1660 Super, GTX 1660. **AMD**: Radeon RX 6600 XT, RX 6600, RX 5700, RX 5600 XT. |
+| Great. Games play at 1440p or 1080p w/ 144Hz refresh rate at high-to-ultra settings. | High-End | **Nvidia**: GeForce RTX 3070 Ti, RTX 3070, RTX 3060 Ti, RTX 3060, RTX 2080 Ti, RTX 2080 Super, RTX 2070 Super, RTX 2070, RTX 2060 Super. **AMD**: Radeon RX 6800, RX 5700 XT. |
+| Premium. Support 4k, new ray-tracing and AI technology. | Premium/Extreme | **Nvidia**: GeForce RTX 3090 Ti, RTX 3090, RTX 3080 Ti, RTX 3080, Titan RTX. **AMD**: Radeon RX 6900 XT, RX 6800 XT. |
 
 
 ### Storage
@@ -152,21 +152,14 @@ There are two main companies that make most of the GPUs on the current market: *
 
 The PC's storage drive is where the operating system (OS) is installed and files are kept. The file system is what the OS uses to control how data is stored and retrieved. By separating data into pieces and giving each piece a name, the data is easily isolated and identified.
 
-Current PC Storage Options:
+#### Storage Comparison
 
-- Hard Disk Drive (HDD)
-    - Low Cost
-    - Mechanical Parts Easily Damaged
-    - Needs Power and SATA Data Cable
-    - Slow Read/Write Speeds
-- Solid State Drive (SSD)
-    - High Cost
-    - Needs Power and SATA Data Cable
-    - High Read/Write Speeds
-- m.2 Drive (m.2)
-    - High Cost
-    - Uses PCI-e Port on Motherboard (No Cables)
-    - High Read/Write Speeds
+| Hard Disk Drive (HDD) | Solid State Drive (SSD) | m.2 Drive (m.2) |
+|-----|-----|------|
+| Low Cost | High Cost| High Cost |
+| Mechanical Parts | No Mechanical Parts | No Mechanical Parts |
+| Needs Power and SATA Data Cables | Needs Power and SATA Data Cables | Uses PCI-e Port on Motherboard (No Cables) |
+| Slow Read/Write Speeds | Fast Read/Write Speeds | Fast Read/Write Speeds |
 
 ### PSU - Power Supply
 ![psu](./assets/images/psu.png){: style="width:15em"}
