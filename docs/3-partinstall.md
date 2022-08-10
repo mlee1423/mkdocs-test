@@ -14,7 +14,7 @@ If not done already, unbox all components and insure that all hardware, brackets
 
 _______________________________________________
 
-The order presented is recommended based on past experience. Technically, components can be installed in any order (besides the CPU cooler before the CPU), but this order has proven to have the least issues and smoothest construction.
+The order presented is recommended based on past experience. Technically, components can be installed in any order (exception being the CPU cooler before the CPU), but this order has proven to have the least issues and smoothest construction.
 
 ## Step 1 - CPU Installation
 Locate the CPU socket on the motherboard. Consult the manual for the exact location.
