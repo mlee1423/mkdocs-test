@@ -130,12 +130,28 @@ Random Access Memory (RAM) is used to load and run applications, respond to comm
 A GPU, or graphics card, is an expansion card that fits into the PCI-e slot on the motherboard. It handles complex graphical instructions, computing images, textures and objects, and sends the result to one or more monitors.
 
 !!! tip
-    A common mistake first-time PC builders make is not connecting the monitor of choice to the GPU's I/O ports and instead connecting it to the motherboard's I/O ports.
+    Be sure to connect the monitor display cable to the correct display port. A common mistake PC builders make is connecting the monitor of choice to the motherboard's I/O ports instead of the GPU's I/O ports, leading to unexpectedly poor graphic display performance.
 
 ### Storage
 ![ssd](./assets/images/ssd.png){: style="width:10em"}
 
-Storage has evolved from hard drives that use magnetic technology to store data on spinning disks. Reaching 20 terabytes (TB) or more, 4 to 8 TB drives are a cost-effective option for mass storage. But, with data transfer around 140 or 180 megabytes (MB) per second, speed is far surpassed by Solid State Drives (SSDs) and SATA m.2 drives.
+The PC's storage drive is where the operating system (OS) is installed and files are kept. The file system is what the OS uses to control how data is stored and retrieved. By separating data into pieces and giving each piece a name, the data is easily isolated and identified.
+
+Current PC Storage Options:
+
+- Hard Disk Drive (HDD)
+    - Low Cost
+    - Mechanical Parts Easily Damaged
+    - Needs Power and SATA Data Cable
+    - Slow Read/Write Speeds
+- Solid State Drive (SSD)
+    - High Cost
+    - Needs Power and SATA Data Cable
+    - High Read/Write Speeds
+- m.2 Drive (m.2)
+    - High Cost
+    - Uses PCI-e Port on Motherboard (No Cables)
+    - High Read/Write Speeds
 
 ### PSU - Power Supply
 ![psu](./assets/images/psu.png){: style="width:15em"}
