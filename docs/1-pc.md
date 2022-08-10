@@ -17,21 +17,46 @@ Inside the case of every computer is the following:
 
 The CPU, or Central Processing Unit, is one of the most important parts of any PC. As the primary hub, it processes instructions that come from programs, the operating system, or other components in the computer. Not too long ago, these functions had to be split across multiple processors to be completed, but manufacturing and design improvements have made it so that the entire CPU can fit onto a single chip.
 
-CPUs work in sequence, which means that every instruction set processed can only be executed in order, one after another. This process happens in three stages: fetch, decode, execute. The CPU takes (fetches) the instruction, processes (decodes) it to be able to read it properly, and then executes it.
+CPUs work in sequence, which means that every instruction set processed can only be executed in order, one after another. This process happens in three stages: fetch, decode, execute. The CPU takes the instruction (fetches), processes it to be able to read it properly (decodes), and then executes it.
 
-!!! tip "Fun Fact"
-    The 4-bit Intel 4004 was the world's first commercial CPU introduced in 1971. It clocked at 740 KHz and could execute up to 92,600 instructions per second. For perspective, the new 12th Gen Intel Core i9 clocks up to 5.2 GHz and can execute over a million instructions per second!
+#### Cores
+![cpucore](./assets/images/cpu core.png){: style="width:15em"}
 
 Originally, CPUs had a single core. Meaning that the physical CPU had just a single central processing unit on it. To increase performance, manufacturers add additional cores. Multicore processors are made up of two or more CPUs on a single chip. The individual cores can execute multiple instructions in parallel, which greatly increases software performance while multi-tasking.
 
 !!! info
     There are two major CPU manufacturers: **Intel** and **AMD**. Both companies frequently trade places for offering better value in terms of cores and threads, without sacrificing too much in the performance department.
 
-For even greater performance enhancement, manufacturers Intel and AMD began using "hyper-threading" and "simultaneous multithreading (SMT)", respectively. A thread is a virtual version of a CPU core. A single CPU core can have up to two threads per core (e.g. A dual core CPU will have four threads). While cores increase the number of tasks available to execute at one time, threads improve overall performance by being able to manage the task processes.
+#### Threads
+
+``` mermaid
+graph TD
+A(Dual Core CPU) --- B(Core 1);
+A --- C(Core 2);
+B --- D(Thread 1);
+B --- E(Thread 2);
+C --- F(Thread 3);
+C --- G(Thread 4);
+```
+For even greater performance enhancement, manufacturers Intel and AMD began using "hyper-threading" and "simultaneous multithreading (SMT)", respectively. A thread is a virtual version of a CPU core. A single CPU core can have up to two threads per core. While cores increase the number of tasks available to execute at one time, threads improve overall performance by being able to manage the task processes.
+
+
 
 !!! example
     Opening an application on a computer creates a **thread** to handle tasks associated with that particular application. Opening and running more applications creates more threads.
 
+    ``` mermaid
+    graph LR
+    A(Core 1) --- B(Execution Thread 1: Open Chrome Web Browser Application);
+    A --- C(Execution Thread 2: Open Spotify Application);
+    B --- D(Task Process 1: Accessing Home Page);
+    B --- E(Task Process 2: Typing Web Address);
+    B --- F(Task Process 3: Loading Web Page);
+    C --- G(Task Process 1:  Searching for Artist);
+    C --- H(Task Process 2:  Selecting Album);
+    C --- I(Task Process 3:  Playing Song);
+
+    ```
 
 #### Sockets
 The CPU Socket is where the CPU is housed when installed onto the motherboard. Socket types are built into the motherboard and cannot be changed. Each pin is wired to communicate with a specific part of the system.
@@ -56,7 +81,6 @@ Below is a table showing common CPUs, their socket type, and corresponding avail
 #### Overclocking
 In order to overclock a processor, the user intentionally increases the CPU operation frequency above the original stock specifications. Because the processor's frequency heavily impacts the effective computational speed of the CPU, the ultimate goal is to increase the frequency of the CPU in order to achieve faster performance.
 
-
 ### CPU Cooler
 ![cpufan](./assets/images/cpu fan.png){: style="width:15em"}
 
@@ -77,7 +101,10 @@ Coolers can be classified in terms of heat dissipation medium into two types: li
 ### Motherboard
 ![mb](./assets/images/mb.png){: style="width:15em"}
 
-The motherboard, also called the mainboard, links all the components of the computer, connecting the processor, memory modules, graphics and expansion cards, hard drives, and connections to the network, keyboard, mouse, and more.
+The motherboard, also called the mainboard, is a Printed Circuit Board (PCB) that holds and allows communication between the components of a computer. This includes the processor, memory, graphics card, hard drive, as well as any specialty expansion cards. The motherboard also contains the computer's main I/O ports that connect the attached components to peripherals like the keyboard, mouse, webcams, speakers and more.
+
+!!! info
+    The motherboard may have HDMI, DisplayPort, DVI or VGA ports driven by the integrated graphics GPU inside some processors.
 
 #### Dimensions
 Common motherboard sizes include:
@@ -86,14 +113,10 @@ Common motherboard sizes include:
 * Micro-ATX (24.4cm x 24.4cm)
 * Mini-ATX (17cm x 17cm)
 
-
-
-
-
 ### Memory - RAM
 ![ram](./assets/images/ram.png){: style="width:15em"}
 
-Random Access Memory (RAM) is used to load and run applications, respond to commands, or toggle between multiple programs. Memory is almost always being actively used by the PC operating system. Different programs require different amounts of RAM, but regardless of the application, it's likely to use a small amount. Adding up over time, if too much RAM is being used at one time, the applications currently being used will slow down severely.
+Random Access Memory (RAM) is used to load and run applications, respond to commands, or toggle between multiple programs. Memory is almost always being actively used by the PC's operating system. Different programs require different amounts of RAM, but regardless of the application, it's likely to use at least a small amount. Adding up over time, if too much RAM is being used at once, the applications currently being used will slow down severely.
 
 #### Capacity Comparison
 
@@ -104,7 +127,10 @@ Random Access Memory (RAM) is used to load and run applications, respond to comm
 ### GPU - Graphical Processing Unit
 ![gpu](./assets/images/gpu.png){: style="width:20em"}
 
-A GPU, or graphics card, is an expansion card that fits into the PCIe slot on the motherboard. It handles complex graphical instructions, computing images, textures and objects, and sends the result to one or more monitors. The motherboard may have HDMI, DisplayPort, or older DVI or VGA ports, driven by the integrated graphics GPU inside some processors.
+A GPU, or graphics card, is an expansion card that fits into the PCI-e slot on the motherboard. It handles complex graphical instructions, computing images, textures and objects, and sends the result to one or more monitors.
+
+!!! tip
+    A common mistake first-time PC builders make is not connecting the monitor of choice to the GPU's I/O ports and instead connecting it to the motherboard's I/O ports.
 
 ### Storage
 ![ssd](./assets/images/ssd.png){: style="width:10em"}
@@ -125,10 +151,8 @@ Power supply is important when building a PC, as it converts AC power into DC po
 #### Energy Efficiency
 The 80 Plus certification program for power supply units offers 80 Plus, 80 Plus Bronze, 80 Plus Silver, 80 Plus Gold, 80 Plus Platinum and 80 Plus Titanium certification levels. The most efficient (and most expensive) Titanium tier offers more than 90% energy efficiency.
 
-The 80 plus bronze, silver, gold, platinum and titanium ratings have 2 to 3 percent efficiency gains between tiers, starting with bronze at 82 percent, and titanium having 92% efficiency, though that comes with a price. Modular power supplies can reduce cable clutter in the PC case, and can make wiring components and cable management easier. And note that CPU and PCI 6+2 connectors may look the same, but they won't fit each other's sockets.
-
 #### Power Supply Design
-Below is a table covering the different pros and cons between the three PSU design types on the market.
+There are three types of PSUs on the market: Full Modular, Semi Modular, and Non Modular. Below is a table covering the different pros and cons between them.
 
 | | Full Modular| Semi Modular | Non Modular|
 |----|----|----|----|
@@ -142,24 +166,25 @@ Below is a table covering the different pros and cons between the three PSU desi
     If a motherboard that supports overclocking is purchased, it may require dual ATX 8 pin or 8+4 pin for the CPU. Check to make sure the selected power supply has them.
 
 ### Case
-![case](./assets/images/case.png){: style="width:10em"}
+![case](./assets/images/case.png){: style="width:9em"}
 
 Selecting a case can be done mostly to personal taste, but there are a few factors to keep in mind.
 
-- The case needs to have good air flow, so there should be lots of fan mounting spots. Also look for wide openings at the front for air to enter, and having them filtered will help keep dust out of the case.
+- The case needs to have good air flow, so there should be lots of fan mounting spots. Look for wide openings at the front for air to enter, and having them filtered will help keep dust out of the case.
 - Check what size motherboard the case will accept, most motherboards are ATX sized and won't fit in smaller cases.
-- Check the length of GPU the case accepts, as newer graphics cards can reach 27-33cm in length. Fourth, check the case for mounting spots for all storage devices.
+- Check the length of GPU the case accepts, as newer graphics cards can reach 27-33cm in length.
+- Check the case for mounting spots for all storage devices.
 - For air cooling, check the case's maximum CPU cooling height in millimeters, having at least a few mm more than the height of the actual cooler.
-- For liquid cooling, the radiator needs a spot to mount to the case, so check for 240 or 360mm rad mounting locations at the front or the top. The top is the recommended location for keeping the inside of the case cool as the rad will exhaust directly outside the case.
+- For liquid cooling, the radiator needs a spot to mount to the case, so check for 240 or 360mm radiator mounting locations at the front or the top. The top is the recommended location for keeping the inside of the case cool as the radiator will exhaust directly outside the case.
 
     !!! danger
-        **Never** mount the rad at the bottom of the case. The pump should never be at the very top of a liquid loop as the small amount of air in the loop will want to pool there, reducing the efficiency of the CPU cold-plate and pump.
+        **Never** mount the radiator to the bottom of the case. The pump should never be at the very top of a liquid loop as the small amount of air in the loop will want to pool there, reducing the efficiency of the CPU cold-plate and pump.
 
-- Tempered glass panels show off the internals but add considerable weight, and care must be taken when transporting and after installation, being careful not to torque fasteners too tightly on the glass as over time this can cause it to shatter.
+- Tempered glass panels show off the internals but add considerable weight, and care must be taken when transporting and after installation. Be cautious not to torque fasteners too tightly on the glass as over time this can cause it to shatter.
 
 ## Operating Systems
 An operating system is considered to be the backbone of any system. Without an operating system, the user and system cannot interact. The three most universally used operating systems are: Windows, MacOS, and Linux.
 
 - **Windows** is developed by Microsoft and is comparatively the most accessible operating system on the market.
 - **MacOS** is developed by Apple for their Macintosh systems and is geared towards users that want performance fused with simplicity.
-- **Linux** is a free, open-source family of operating systems initially developed by Linus Torvalds and later added onto by the GNU Project and the Linux community. It is mainly used by enthusiasts and companies that run servers and applications with the need of high security and no downtime.
+- **Linux** is a free, open-source family of operating systems initially developed by Linus Torvalds and currently updated by the GNU Project and the Linux community. It is mainly used by enthusiasts and companies that run servers and applications with the need of high security and no downtime.
