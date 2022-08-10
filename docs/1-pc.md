@@ -116,13 +116,16 @@ Common motherboard sizes include:
 ### Memory - RAM
 ![ram](./assets/images/ram.png){: style="width:15em"}
 
-Random Access Memory (RAM) is used to load and run applications, respond to commands, or toggle between multiple programs. Memory is almost always being actively used by the PC's operating system. Different programs require different amounts of RAM, but regardless of the application, it's likely to use at least a small amount. Adding up over time, if too much RAM is being used at once, the applications currently being used will slow down severely.
+Random Access Memory (RAM) is used to load and run applications, respond to commands, or toggle between multiple programs. The speed and performance of the system directly correlate to the amount of RAM installed on the PC. The more programs being run, the more RAM is needed.
 
 #### Capacity Comparison
 
 | 4GB | 8GB | 16GB | 32GB+ |
 |-----|-----|------|------|
-|Bare Minimum. Adequate only for word processing, e-mail, and web browsing | Standard. Minimum required for gaming.| Ideal for gaming and most systems and tasks | Any kind of system intensive, workstation-grade tasks; programming, virtual machines, photo and video editing. |
+|Decent. Adequate only for word processing, e-mail, and web browsing. | Standard. Minimum required for gaming.| Great. Ideal for gaming and most system tasks. | Premium. Any kind of system intensive, workstation-grade tasks; programming, virtual machines, photo and video editing. |
+
+!!! info "Important Info"
+    It is not possible to **download** more RAM. RAM is a **physical** object.
 
 ### GPU - Graphical Processing Unit
 ![gpu](./assets/images/gpu.png){: style="width:20em"}
@@ -131,6 +134,18 @@ A GPU, or graphics card, is an expansion card that fits into the PCI-e slot on t
 
 !!! tip
     Be sure to connect the monitor display cable to the correct display port. A common mistake PC builders make is connecting the monitor of choice to the motherboard's I/O ports instead of the GPU's I/O ports, leading to unexpectedly poor graphic display performance.
+
+#### Performance Comparison
+
+There are two main companies that make most of the GPUs on the current market: **Nvidia** and **AMD**.
+
+| Usage | Performance | GPU |
+|-----|-----|------|
+|Decent. Games play at 1080p or lower at medium-to-low settings. | Budget | Nvidia GeForce GTX 1650 Super, Nvidia GTX 1650; AMD Radeon RX 6500 XT, RX 6400, RX 5500 XT 4GB/8GB  |  
+| Standard. Games play at 1080p at medium-to-high settings. | Mid-Range | Nvidia GeForce RTX 3050, RTX 2060, GTX 1660 Ti, GTX 1660 Super, GTX 1660; AMD Radeon RX 6600 XT, RX 6600, RX 5700, RX 5600 XT |
+| Great. Games play at 1440p or 1080p w/ 144Hz refresh rate at high-to-ultra settings. | High-End | Nvidia GeForce RTX 3070 Ti, RTX 3070, RTX 3060 Ti, RTX 3060, RTX 2080 Ti, RTX 2080 Super, RTX 2070 Super, RTX 2070, RTX 2060 Super; AMD Radeon RX 6800, RX 5700 XT |
+| Premium. Support 4k, new ray-tracing and AI technology. | Premium/Extreme | Nvidia GeForce RTX 3090 Ti, 3090, RTX 3080 Ti, RTX 3080, Titan RTX. AMD Radeon RX 6900 XT, RX 6800 XT |
+
 
 ### Storage
 ![ssd](./assets/images/ssd.png){: style="width:10em"}
